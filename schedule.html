@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>schedule</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="aud">Schedule + Informations</header>
+
+    <nav>
+        <ul>
+     <li><div><a href="firstpage.html">Erste seite</a></div></li>
+      <li><div><a href="index.html">Mein erste HTML</a></div></li>
+      <li><div><a href="vacation.html">Urlaubseite</a></div></li>
+    </ul>
+    </nav>
+<main>
+    <section class="plan">
+    <h1>Das ist mein Stundenplan an der HS Worms</h1>
+    <table>
+        <tr> 
+            <th></th>
+            <th>Montag</th>
+            <th>Dienstag</th>
+            <th>Mittwoch</th>
+            <th>Donnerstag</th>
+            <th>Freitag</th>
+        </tr>
+        <tr>
+        <th>9:00Uhr-12:15</th>
+        <td>Programmierung</td>
+        <td></td>
+        <td></td>
+            <td>Webentwicklung</td>
+        </tr>
+        <tr>
+            <th>13:00Uhr-16:15</th>
+            <td></td>
+            <td>Softwarearchitektur</td>
+        </tr>
+    </table>
+
+    <h1>Welche der Vorlesungen sind langweilig?</h1>
+    <form action="/dummscript.php" method="post">
+        <input type="radio" id="aud" name="fäche" value="aud">
+        <label for="aud">IT-Recht</label><br>
+        <input type="radio" id="jos" name="fäche" value="jos">
+        <label for="jos">Hardware</label><br>
+        <input type="radio" id="mam" name="fäche" value="mam">
+        <label for="man">Diskrete Mathematik</label><br>
+        <input type="submit" value="senden">
+    </form>
+    </section>
+
+    <footer class="will">Plan der Woche(Worms) | Kontakt</footer>
+    </main>
+</body>
+</html>

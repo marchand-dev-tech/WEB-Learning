@@ -1,0 +1,70 @@
+header{
+    background-color: rgb(25, 241, 21);
+    border:solid 4px black;
+    height:80px;
+}
+body{
+    display:grid;
+    padding:10px;
+    gap:6px;
+    grid-template-columns: auto auto;
+    grid-template-areas: "header header"
+                        "nav nav"
+                        "main main"
+                        "article aside"
+}
+
+nav{
+    grid-area:nav;
+    background-color: orange;
+    border: solid 4px black;
+    
+    
+    text-align: center;
+    padding:1vh;
+}
+
+/*.menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type:none;
+     
+
+}
+*/
+ul{
+    display: none;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color:black;
+    display: none;
+    
+
+}
+#checkbox{
+    display: none;
+}
+
+main{
+    grid-area:main;
+    background-color: blue;
+     border:solid 4px black;
+}
+article{
+    grid-area:article;
+    background-color: yellow;
+     border:solid 4px black;
+}
+aside{
+    grid-area:aside;
+background-color: lightblue;
+ border:solid 4px black;
+}
+footer{
+    border:solid 4px black;
+    background-color: red;
+}
